@@ -14,7 +14,19 @@
 /* Put body attributes here */
 
 body { 
-	background-color: yellow;
-	color: brown;
+	background-color: lightblue;
+	color: black;
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	
 
 }
+h1 { 
+	font-size: 230%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: overline; 
+}
+
+img{ float:right; }
+
+.good-images{ clear: right; }
