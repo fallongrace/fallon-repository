@@ -25,7 +25,11 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: overline; 
+	background-color: DarkCyan
 }
+
+p { color: rgb(73,22,45);
+	background-color: white}
 
 img{ float:right; }
 
