@@ -1,0 +1,49 @@
+/*
+*Fallon Grace
+*April 30th, 2018
+*Girl Develop It
+*/
+
+
+body {
+	background-color: lightpink;     /*back-ground color in body is the background-color for the whole page*/
+	color: black;					/*color is for font color */
+	font-family: Helvetica,"Times New Roman", sans-serif;
+	}
+
+
+header {
+		text-align: center;
+	}
+	
+h2 {
+	text-decoration: underline; 
+	font-family: cursive, "glorydays", sans-serif;
+	font-size: 200%;
+	}
+	
+h3 {
+	text-decoration: underline; 
+	font-family: cursive, "glorydays", sans-serif;
+	font-size: 190%;
+	}
+	
+a:hover, a:focus { /* I placed hover and focus together, for those who can't use a mouse to experience the same */
+	color:green;
+	text-decoration: underline; 
+	font-size: 150%; 
+	}
+	
+a:active {
+	color:blue
+	}
+	
+.fun-image {  /*I put the two images together in a class, because it is a more specific selector */
+	float:right; /*I wanted my images to be to the right, so i used the float property right */
+	width:30%;
+	height: 32%; }
+
+#img { clear:left; 
+	width: 99%;
+	height:22%;
+	 }
