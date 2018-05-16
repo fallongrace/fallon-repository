@@ -1,0 +1,48 @@
+/*
+*Fallon Grace
+*May 14th,2018
+*Endangered Species
+*/
+
+* { margin: 0;
+	 padding: 0;
+	 }
+/* This is a universal selector, which I used to make everything on the page the same */
+h1 { text-align: center;
+	text-decoration: overline underline;
+	text-transform: uppercase; 
+	font-size: 300%;
+	PADDING-bottom:.3em; /* padding bottom is the only  one i used because I didn't need padding for the other sides */
+	}
+	
+h2 { padding: .3em;
+}
+
+p { margin: 1em;
+	} /* I used margin keep the text away from the edge of the screen browser */
+
+header { text-align: center;
+	padding: 1em;
+	}
+
+body {
+	background-color: lightblue; /* I used light blue background color for a nice easy to read web page */
+	color: black;
+	font-family: Helvetica,"Times New Roman", sans-serif; 
+	text-align: justify;
+		} /* Justify is used to make the paragraph text end at the same point on every line */
+		
+	
+#headpic { height: 190px; /* This is an id selector, which I used to make only one element change */
+		width: 490px;
+		padding: .2em;
+		border:.2em;
+		border-style:dashed;
+	}
+.happyrhino { margin: .5em; /* This is a class selector, which I used to make only the line of pictures the same size and margins */
+	height:200px;
+	width: 250px;
+}
+footer { padding: 1em;
+	margin: 1em;
+}
