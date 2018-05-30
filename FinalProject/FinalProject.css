@@ -1,0 +1,96 @@
+/* Fallon Grace
+*  May 30th,2018
+*  Final Project */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	/* width: 94%;*/
+    width: 100%; 
+    color:	#2e5e4a;
+    background-color:	#9cc9b1;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+header {
+    border-bottom: 2px solid #98aeab;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+#sidebarA {
+    width: 19%;
+    height: 500px;
+    float: left;
+    border-right: 2px solid	#98aeab;
+    text-align: center;
+}
+
+main {
+    width: 56%;
+    height:500px;
+    float: left;
+    text-align: center;
+    padding: 4px 0px 4px 4px;
+}
+
+p {
+	padding: 6px;
+}
+#cjwalker {
+	float:right;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 3px;
+}
+#product{
+	float: both;
+	width: 200px;
+	height: 190px;
+	padding: 5px;
+}
+
+#sidepic {
+	float: both;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 27px 27px 20px 27px;
+}
+#newspaper {
+	float: left;
+	width: 200px;
+	height: 230px;
+	margin: 1px;
+	padding: 5px;
+	
+}
+img {
+	border: black solid;
+}
+
+#sidebarB {
+    width: 22%;
+    height: 500px;
+    float: right;
+    border-left: 2px solid	#98aeab;
+    text-align:center;
+}
+footer {
+    clear: left;
+    border-top: 1px solid 	#98aeab;
+    padding: 0px 5px 5px 5px;
+    background-color: black;
+    }
