@@ -1,0 +1,103 @@
+/* Fallon Grace
+*  May 30th,2018
+*  Final Project */
+
+* {    /* This is a universal selector to see all the margins and padding at 0*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%; /* I had to create a 100% width for all my elements to fit the screen*/
+    color:	#2e5e4a; /* I used a hex code for a specific color */
+    background-color:	#9cc9b1;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+header {
+    border-bottom: 2px solid #98aeab;
+    text-align: center;
+    text-transform: uppercase; 
+    background-color: black;
+}
+
+#sidebarA { /* */
+    width: 19%;
+    height: 500px;
+    float: left;
+    border-right: 2px solid	#98aeab;
+    text-align: center;
+}
+
+main {
+    width: 56%; 
+    height:500px;
+    float: left;
+    text-align: center;
+    padding: 0px 0px 4px 4px; /* to get specific px for each side i specified my padding for top, right, bottom, left */
+}
+
+p {
+	padding: 6px; /* I added padding to all my paragraph text to keep my page clean, spacious, and organized */
+}
+#cjwalker { /* this is an ID selector i used for specific changes on a certain picture*/
+	float:right;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 3px;
+}
+#product{
+	float: both;
+	width: 200px;
+	height: 190px;
+	padding: 5px;
+}
+
+#sidepic { 
+	float: both; /*I used both to make my image center */
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 27px 20px 15px 20px;
+}
+#newspaper {
+	float: left;
+	width: 200px;
+	height: 230px;
+	margin: 1px;
+	padding: 5px;
+	
+}
+img {
+	border: black solid; /* I wanted all my images on the page to have the same border style */
+}
+
+#sidebarB { 
+    width: 22%;
+    height: 500px;
+    float: right;
+    border-left: 2px solid	#98aeab;
+    text-align:center;
+}
+a:link {
+	color: #2e5e4a;
+}
+
+a:visited { 
+	color: white; /*i used visited to change the links you have clicked before colors */
+}
+
+footer {
+    clear: left; 
+    border-top: 0px solid 	#98aeab;
+    padding: 0px 5px 5px 5px;
+    background-color: black;
+    }
